@@ -45,20 +45,6 @@ while True:
             pygame.quit()
             sys.exit()
             # Винести в функцию controlsCheck
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_DOWN:
-                print("move down")
-                pygame.display.update()
-            elif event.key == pygame.K_UP:
-                print("move down")
-                pygame.display.update()
-            elif event.key == pygame.K_LEFT:
-                print("move down")
-                pygame.display.update()
-            elif event.key == pygame.K_RIGHT:
-                print("move down")
-                pygame.display.update()
-                #
     snake.update()
     screen.fill((3, 99, 32))
     drawGrid()
