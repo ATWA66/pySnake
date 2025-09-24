@@ -1,0 +1,3 @@
+BLOCK_SIZE = 50
+SW = 800
+SH =  800
